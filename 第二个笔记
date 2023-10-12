@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+typedef struct com {
+    float realpart;
+    float imagpart;
+} Complex;
+
+// Corrected function prototypes
+void assign(Complex *a, float real, float imag);
+void add(Complex *c, Complex A, Complex B);
+
+// Corrected assign function to use pointers
+void assign(Complex *A, float real, float imag) {
+    A->realpart = real;
+    A->imagpart = imag;
+}
+
+// Corrected add function to use pointers
+void add(Complex *c, Complex A, Complex B) {
+    c->realpart = A.realpart + B.realpart;
+    c->imagpart = A.imagpart + B.imagpart;
+}
+
+int main() { // Changed void to int for main
+    Complex A;
+    Complex B;
+    Complex C;
+    float Realpart, Imagpart;
+
+    // Removed the invalid printf statements
+    assign(&A, 2.88, 4.99);
+    assign(&B, 3.2, 1.5); // Changed values for B to make the addition more interesting
+    add(&C, A, B);
+
+    printf("imagpart of C: %f\n", C.imagpart); // Corrected printf statements
+    printf("realpart of C: %f\n", C.realpart);
+
+    return 0; // Added a return statement to indicate successful program execution
+}
