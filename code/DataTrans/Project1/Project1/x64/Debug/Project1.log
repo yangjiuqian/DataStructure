@@ -1,0 +1,10 @@
+﻿  Sequence.cpp
+D:\yangjiuqian\DataStructure\code\DataTrans\Project1\Project1\Sequence.cpp(12,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(971,1): message : 参见“OVERFLOW”的前一个定义
+D:\yangjiuqian\DataStructure\code\DataTrans\Project1\Project1\Sequence.cpp(80,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  chain.cpp
+D:\yangjiuqian\DataStructure\code\DataTrans\Project1\Project1\chain.cpp(46,13): warning C4326: “main”的返回类型应为“int”而非“void”
+D:\yangjiuqian\DataStructure\code\DataTrans\Project1\Project1\chain.cpp(47,11): warning C4101: “p”: 未引用的局部变量
+  正在生成代码...
+chain.obj : error LNK2005: main 已经在 Sequence.obj 中定义
+D:\yangjiuqian\DataStructure\code\DataTrans\Project1\x64\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
