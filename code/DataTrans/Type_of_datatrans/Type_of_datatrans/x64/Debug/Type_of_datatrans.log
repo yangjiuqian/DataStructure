@@ -1,0 +1,3 @@
+﻿源.obj : error LNK2005: main 已经在 citetype.obj 中定义
+源1.obj : error LNK2005: main 已经在 citetype.obj 中定义
+D:\yangjiuqian\DataStructure\code\DataTrans\Type_of_datatrans\x64\Debug\Type_of_datatrans.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
